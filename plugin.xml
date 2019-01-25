@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
  
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="com.cordova.plugins.cookiehelper"
+           id="cordova-plugins-cookiehelper"
       version="1.0.0">
     <name>CookieHelper</name>
     <description>This plugin enables the management of cookies in WebViews Android as those platforms restrict the use of "document.cookie".</description>

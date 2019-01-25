@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugins-cookiehelper",
+  "version": "1.0.1",
+  "description": "This plugin enables the management of cookies in WebViews Android as those platforms restrict the use of \"document.cookie\".",
+  "cordova": {
+    "id": "cordova-plugins-cookiehelper",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khamp/cordova-cookie-helper.git"
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "cookie",
+    "cookies",
+    "cookie-manager",
+    "cookie-plugin",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "umwt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khamp/cordova-cookie-helper/issues"
+  },
+  "homepage": "https://github.com/khamp/cordova-cookie-helper#readme"
+}
