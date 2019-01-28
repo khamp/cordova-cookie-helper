@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugins-cookiehelper",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This plugin enables the management of cookies in WebViews Android as those platforms restrict the use of \"document.cookie\".",
   "cordova": {
     "id": "cordova-plugins-cookiehelper",

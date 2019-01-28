@@ -86,10 +86,8 @@ public class CookieHelper extends CordovaPlugin {
 
         else if (ACTION_CLEAR_COOKIES.equals(action)) {
 
-            CookieManager cookieManager = CookieManager.getInstance();
-
-            cookieManager.removeAllCookies();
-			callbackContext.success();
+            CookieManager.getInstance().removeAllCookie();
+            callbackContext.success();
             return true;
         }
 
