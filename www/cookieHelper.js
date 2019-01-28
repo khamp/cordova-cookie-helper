@@ -14,7 +14,7 @@ var cookieHelper = {
                     [url, cookieName, cookieValue]
         );
     },
-    clear: function(successCallback, errorCallback) {
+    clearCookies: function(successCallback, errorCallback) {
         cordova.exec(successCallback,
                     errorCallback,
                     'CookieHelper', 'clearCookies',
