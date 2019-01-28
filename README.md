@@ -1,2 +1,1 @@
-# cordova-cookie-helper
-This plugin enables the management of cookies in WebViews Android as those platforms restrict the use of "document.cookie".
+IMPORTANT: This plugin is no longer maintained. It is possible that some functionality may be deprecated in newer target SDKs.

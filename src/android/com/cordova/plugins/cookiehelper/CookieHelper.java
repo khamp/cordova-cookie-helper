@@ -1,4 +1,4 @@
-package com.cordova.plugins.cookieheper;
+package com.cordova.plugins.cookiehelper;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
@@ -85,8 +85,11 @@ public class CookieHelper extends CordovaPlugin {
         }
 
         else if (ACTION_CLEAR_COOKIES.equals(action)) {
-            CookieManager.getInstance().removeAllCookie();
-            callbackContext.success();
+
+            CookieManager cookieManager = CookieManager.getInstance();
+
+            cookieManager.removeAllCookies();
+			callbackContext.success();
             return true;
         }
 
